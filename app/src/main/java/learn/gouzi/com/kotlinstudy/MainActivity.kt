@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() { //extends implements
+	//https://blog.csdn.net/c10WTiybQ1Ye3/article/details/90386181
     //java里不赋值的话 成员变量有默认值，但局部变量里没有默认值。（）
     //kotlin 都没有默认值
     //字符串换行 三对单引号
