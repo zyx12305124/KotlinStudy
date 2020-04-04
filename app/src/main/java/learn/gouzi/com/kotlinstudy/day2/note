@@ -1,0 +1,11 @@
+https://www.kotlincn.net/      kotlin语言中文站
+1.lateinit关键字 和 isInitialized (kotlin day2 16分钟)
+2.幕后字段 field 和value
+ get() = field
+        set(value) {
+                field = value
+        }
+3.Any Any?          https://blog.csdn.net/cadi2011/article/details/85421746
+Object 等同于 Any?
+
+4.PECS原则
