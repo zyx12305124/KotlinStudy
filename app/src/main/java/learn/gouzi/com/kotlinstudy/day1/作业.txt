@@ -1,0 +1,32 @@
+1. val 和var 的区别
+把kotlin代码通过
+Tools -> Kotlin -> Show Kotlin ByteCode 
+ -> Decompile成Java代码
+ 查看它们的区别
+ 
+2.  属性与字段，幕后字段的区别
+class Student{
+var name
+var age
+var sex
+//重写三个构造函数，必须写一个主构造函数
+//重新getter setter 然后查看编译出来的Java代码 体会它们的区别
+}
+Tools -> Kotlin -> Show Kotlin ByteCode 
+ -> Decompile成Java代码
+ 查看它们的区别
+ 
+3. 定义一个Person类，然后让Student继承自Person
+
+4. lateinit的作用与限制规则 和 by lazy的区别
+
+5. 非空类型 与可空类型的区别
+思考 可以把 Student? 赋值给Student的变量吗？
+
+
+
+
+
+
+
+ 

@@ -1,9 +1,17 @@
 package learn.gouzi.com.kotlinstudy.day1
 
-/**
- * Created by kila on 2020/2/20.
- */
-open class Person {
-    var name=""
-    var age = 0
+import org.jetbrains.annotations.TestOnly
+
+open class Person (val name:String,val age :Int){
+
+    init {
+        eat()
+    }
+
+    fun eat(){
+//        println(name + " is eating. She is " + age + " years old.")
+    }
+
+
+
 }

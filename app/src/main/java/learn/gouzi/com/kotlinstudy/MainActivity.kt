@@ -8,6 +8,7 @@ class MainActivity : AppCompatActivity() { //extends implements
     //java里不赋值的话 成员变量有默认值，但局部变量里没有默认值。（）
     //kotlin 都没有默认值
     //字符串换行 三对单引号
+    //kotlin 中抽象类和抽象方法的使用
     //!! 断言运算符 确定不为空 为空就报错
     //str1!!.length str1?.length
     // open关键字定义类可继承
